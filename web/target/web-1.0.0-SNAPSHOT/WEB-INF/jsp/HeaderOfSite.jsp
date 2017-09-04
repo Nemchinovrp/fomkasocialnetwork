@@ -19,7 +19,7 @@
 
             <form action="${pageContext.request.contextPath}/Search" class="navbar-form navbar-left" role="search">
                 <div class="ui-widget form-group">
-                    <input id="accountSearchInput" type="text" class="form-control" placeholder="Search" name="pattern">
+                    <input id="accountSearchInput" type="text" class="form-control" placeholder="Search people" name="pattern">
                 </div>
                 <button type="submit" class="btn btn-default">Search</button>
             </form>

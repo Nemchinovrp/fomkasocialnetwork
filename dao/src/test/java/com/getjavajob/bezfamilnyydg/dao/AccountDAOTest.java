@@ -49,7 +49,7 @@ public class AccountDAOTest {
     @Test
     public void getAll() {
         List<Account> accountsFromDB = accountDAO.getAll();
-        assertEquals(2, accountsFromDB.size());
+        assertEquals(4, accountsFromDB.size());
     }
 
     @Test
@@ -81,7 +81,7 @@ public class AccountDAOTest {
     @Test
     public void countOfSearchedAccounts() {
         long countOfRecords = accountDAO.countOfSearchedAccounts("a");
-        assertEquals(2, countOfRecords);
+        assertEquals(4, countOfRecords);
     }
 
     @Test

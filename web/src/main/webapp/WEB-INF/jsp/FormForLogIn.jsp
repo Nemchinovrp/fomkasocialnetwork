@@ -48,7 +48,7 @@
     </div>
 
     <div class="row text-center" style="margin-top: 10px">
-        <p style="margin-bottom:0px;">Don't registered?</p>
+        <p style="margin-bottom:0px;">Don't register?</p>
         <a href="${pageContext.request.contextPath}/CreateAccount" style="margin-top:0px;">Create account</a>
     </div>
 
